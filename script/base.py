@@ -1,8 +1,8 @@
 import yaml
 class nhentai_obj(object):
     def __init__(self):
-        with open("config.yml","r") as stream:
-            self.config=yaml.load(stream)
+        with open("config.yml","r") as reader:
+            self.config=yaml.load(reader,Loader=yaml.BaseLoader)
         self.container=[]
     def __iter__(self):
         self.counter=0
