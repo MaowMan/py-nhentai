@@ -16,7 +16,7 @@
 
 - 執行`main.py`展開圖形化介面，下載路徑在`./content/`中，也可以自行修改`config.yml`檔案
 
-- 開啟`bin\main.exe`執行程式
+- 開啟`bin\main.exe`(以pyinstaller編譯過的執行檔)執行程式
 
 ## 備註
 
