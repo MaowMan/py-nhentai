@@ -16,8 +16,6 @@
 
 - 執行`main.py`展開圖形化介面，下載路徑在`./content/`中，也可以自行修改`config.yml`檔案
 
-- 開啟`bin\main.exe`(以pyinstaller編譯過的執行檔)執行程式
-
 ## 備註
 
 如果視窗不正常關閉可能導致tkinter無法正確運作，重新開機即可解決這一問題。
